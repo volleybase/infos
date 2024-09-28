@@ -5,10 +5,10 @@
 
 >ak>Allgemeine Klasse
  >bl>Bundesliga
-  D:dat-a:Termine
-  #R:res-a:Ergebnisse
-  #S:sta-a:Tabelle
-  #P:pla-a:Spielerinnen
+  D:dat-bl:Termine
+  #R:res-bl:Ergebnisse
+  #S:sta-bl:Tabelle
+  #P:pla-bl:Spielerinnen
  <<
  >ul2>Unterliga - 2
   D:dat-ul2:Termine
