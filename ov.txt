@@ -1,0 +1,63 @@
+#>info>Ich will Volleyball!
+# L2:info-c:Volksschülerinnen:/infos/werbung/volksschule.html
+# L2:info-b:Mittelschule & Gymnasium:/infos/werbung/b.html
+#<<
+
+>ak>Allgemeine Klasse
+ >bl>Bundesliga
+  D:dat-a:Termine
+  #R:res-a:Ergebnisse
+  #S:sta-a:Tabelle
+  #P:pla-a:Spielerinnen
+ <<
+ >ul2>Unterliga - 2
+  D:dat-ul2:Termine
+  R:res-ul2:Ergebnisse
+  S:sta-ul2:Tabelle
+  P:pla-ul2:Spielerinnen
+ <<
+ >ul3>Unterliga - 3
+  D:dat-ul3:Termine
+  #R:res-ul3:Ergebnisse
+  #S:sta-ul3:Tabelle
+  #P:pla-ul3:Spielerinnen
+ <<
+<<
+
+#>junior>NW
+# >u12>U12
+#  Termine
+#  Tabelle
+#  Info
+# <<
+# >u13>U13
+#  Termine
+#  Tabelle
+#  Info
+# <<
+# >u14>U14
+#  Termine
+#  Tabelle
+#  Info
+# <<
+# >u15>U15
+#  Termine
+#  Tabelle
+#  Info
+# <<
+# >u16>U16
+#  Termine
+#  Tabelle
+#  Info
+# <<
+# >u18>U18
+#  Termine
+#  Tabelle
+#  Info
+# <<
+# >u20>U20
+#  Termine
+#  Tabelle
+#  Info
+# <<
+#<<

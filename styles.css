@@ -1,0 +1,250 @@
+/* -- main settings -------------------------------------------------------- */
+*, html, body {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+
+  background: aliceblue;  /* aliceblue #F0F8FF */
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7px;
+  text-align: center;
+}
+
+/*
+@media
+screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-moz-min-device-pixel-ratio: 1.5),
+screen and (min-device-pixel-ratio: 1.5) {
+} */
+
+@media (min-width: 500px) and (max-width: 750px) {
+  *, html, body {
+    font-size: 8px;
+  }
+}
+@media (min-width: 750px) and (max-width: 1000px) {
+  *, html, body {
+    font-size: 9px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1333px) {
+  *, html, body {
+    font-size: 10px;
+  }
+}
+@media (min-width: 1333px) and (max-width: 1667px) {
+  *, html, body {
+    font-size: 11px;
+  }
+}
+@media (min-width: 1667px) and (max-width: 2000px) {
+  *, html, body {
+    font-size: 12px;
+  }
+}
+@media (min-width: 2000px) and (max-width: 2500px) {
+  *, html, body {
+    font-size: 13px;
+  }
+}
+@media (min-width: 2500px) and (max-width: 3000px) {
+  *, html, body {
+    font-size: 14px;
+  }
+}
+@media (min-width: 3000px) {
+  *, html, body {
+    font-size: 15px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  position: relative;
+  margin: 0;
+  margin-bottom: 0.1em;
+  padding: 0;
+
+  text-align: center;
+  font-weight: bold;
+  background: lightblue;
+
+  white-space: nowrap;
+  overflow: hidden;
+}
+h1 {
+  font-size: 5em;
+  padding: 1em;
+  line-height: 150%;
+}
+h2 {
+  font-size: 4em;
+  padding: 1em;
+}
+h3 {
+  font-size: 3em;
+  padding: 1em;
+}
+h4 {
+  font-size: 2.5em;
+  padding: 0.8em;
+}
+h5 {
+  font-size: 2em;
+  padding: 0.8em;
+}
+h6 {
+  font-size: 1.5em;
+  padding: 0.6em;
+}
+a {
+  color: #111;
+  text-decoration: none;
+}
+h1 > sub, h2 > sub, h3 > sub, h4 > sub, h5 > sub, h6 > sub {
+  font-size: 0.7em;
+  background-color: lightblue;
+}
+
+/* -- tactics overview ----------------------------------------------------- */
+h1.tactics {
+  padding: 0.5em;
+  text-align: center;
+}
+h2.tactics {
+  padding: 0.6em;
+}
+table.tactics {
+  margin: auto auto 2em auto;
+}
+table.tactics img {
+  width: 100%;
+}
+table.tactics td {
+  padding: 1em 1em 0 1em;
+  width: 25em;
+  max-width: 25em;
+  min-width: 25em;
+}
+table.tactics div {
+  font-size: 2.5em;
+}
+table.tactics h3 > div {
+  font-size: 0.6em;
+  background-color: lightblue;
+  white-space: normal;
+}
+
+/* -- header --------------------------------------------------------------- */
+#header {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10em;
+
+  background-color: lightblue;
+
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#header > div.left {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  background-color: lightblue;
+}
+#header > div.right {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  background-color: lightblue;
+}
+#header > div > a {
+  position: relative;
+  display: inline-block;
+  height: 10em;
+  padding: 1em;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+#header > div > a > img {
+  height: 8em;
+  width: auto;
+}
+#header > div > div {
+  position: relative;
+  display: inline-block;
+
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0 0.2em 0 0;
+  border-top: 5px solid lightblue;
+
+  font-size: 7em;
+  line-height: 112%;
+  font-weight: bold;
+  background-color: lightblue;
+
+  z-index: 1;
+}
+
+/* -- footer --------------------------------------------------------------- */
+#footer {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.5em;
+  padding: 0.2em;
+  overflow: hidden;
+
+  background-color: lightblue;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: left;
+}
+#footer > div {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 1.5em;
+  padding: 0.2em;
+
+  background-color: inherit;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* -- content -------------------------------------------------------------- */
+div#content_container, div#loader {
+  position: absolute;
+  left: 1em;
+  top: 11em;
+  right: 1em;
+  min-width: 10em;
+  bottom: 4.8em;
+  padding: 1em 0;
+  overflow: auto;
+  text-align: left;
+  box-sizing: border-box;
+}
+div#content_container.locked {
+  display: none;
+}
+div#loader {
+  font-size: 5em;
+  top: 2em;
+}
+
+/* --  ------------------------------------------------ */

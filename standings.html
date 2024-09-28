@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Brückl hotvolleys</title>
+  <link rel="stylesheet" href="/infos/styles.css">
+  <link rel="shortcut icon" href="/infos/favicons/favicon.ico">
+  <style>
+  pre#content {
+    font-family: monospace;
+    line-height: 111%;
+    text-align: left;
+    font-size: 3em;
+  }
+  pre#content > b {
+    font-size: 1.5em;
+  }
+  pre#content > b.team {
+    font-family: monospace;
+    text-align: left;
+    font-size: 1em;
+    padding: 0px;
+  }
+
+  pre#content > div.container {
+    display: inline-block;
+    position: absolute;
+    height: 1em;
+  }
+  pre#content > div.container > input[type=checkbox] {
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+  pre#content > div.container > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2.6em;
+    height: 1em;
+  }
+  pre#content > div.container > label > span {
+    position: absolute;
+    top: -1.4em;
+    left: -0.5em;
+    padding: 0.2em 0.5em;
+    display: none;
+    font-size: 1em;
+  }
+  pre#content > div.container > input[type=checkbox]:checked + label > span {
+    display: block;
+  }
+  </style>
+  <script src="/infos/script/polyfills.js"></script>
+  <script src="/infos/script/request.js"></script>
+  <script src="/infos/script/standings.js"></script>
+  <script src="/infos/script/utils.js"></script>
+ </head>
+ <body onload="window.bhv.utils.setBack(); getStandings();">
+  <div id="header">
+    <div class="left">
+    <a href="/infos/ov.html"><img src="/infos/image/bhv1.gif"/></a>
+    <div>Tabelle</div>
+    </div><div class="right">
+    <a href="/infos/ov.html"><img src="/infos/image/bhv1.gif"/></a>
+    </div>
+  </div>
+  <div id="content_container"><pre id="content">Loading...</pre></div>
+  <div id="footer">Brückl Hotvolleys<div>Brückl Hotvolleys</div></div>
+ </body>
+</html>

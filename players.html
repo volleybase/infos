@@ -1,0 +1,40 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Brückl hotvolleys</title>
+  <link rel="stylesheet" href="/infos/styles.css">
+  <style>
+pre#content {
+  font-family: monospace;
+  line-height: 111%;
+  text-align: left;
+  font-size: 3em;
+}
+pre#content > b {
+  font-size: 1.5em;
+}
+  </style>
+  <script src="/infos/script/polyfills.js"></script>
+  <script src="/infos/script/request.js"></script>
+  <script src="/infos/script/players.js"></script>
+  <script src="/infos/script/utils.js"></script>
+  <script>
+function init() {
+  window.bhv.utils.setBack('players');
+  getPlayers();
+}
+  </script>
+</head>
+<body onload="init();">
+  <div id="header">
+    <div class="left">
+    <a href="/infos/ov.html"><img src="/infos/image/bhv1.gif"/></a>
+    <div>Spielerinnen</div>
+    </div><div class="right">
+    <a href="/infos/ov.html"><img src="/infos/image/bhv1.gif"/></a>
+    </div>
+  </div>
+  <div id="content_container"><pre id="content">Loading...</pre></div>
+  <div id="footer">Brückl Hotvolleys<div>Brückl Hotvolleys</div></div>
+<body>
+</html>

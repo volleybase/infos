@@ -1,0 +1,100 @@
+
+div.expander {
+  position: absolute;
+  top: 50%;
+  right: 3.5em;
+
+  width: 0;
+  height: 0;
+
+  overflow: hidden;
+  background-color: transparent;
+  opacity: 0.2;
+}
+
+.expandable {
+  cursor: pointer;
+}
+
+h1.expandable div.expander, h2.expandable div.expander {
+  margin-top: -1em;
+  border-left: 2em solid transparent;
+  border-right: 2em solid transparent;
+  border-top: 2em solid blue;
+}
+h1.expandable.up div.expander, h2.expandable.up div.expander {
+  border-top: 0 none;
+  border-bottom: 2em solid blue;
+}
+
+h3.expandable div.expander, h4.expandable div.expander, h5.expandable div.expander {
+  margin-top: -0.5em;
+  border-left: 1em solid transparent;
+  border-right: 1em solid transparent;
+  border-top: 1em solid blue;
+}
+h3.expandable.up div.expander, h4.expandable.up div.expander, h5.expandable.up div.expander {
+  border-top: 0 none;
+  border-bottom: 1em solid blue;
+}
+
+/* TODO h6 */
+
+a h1::after {
+  content: ' ';
+  position: absolute;
+  top: 50%;
+  right: 3.5em;
+  margin-top: -1em;
+
+  width: 0;
+  height: 0;
+  border-top: 2em solid transparent;
+  border-left: 2em solid blue;
+  border-bottom: 2em solid transparent;
+
+  overflow: hidden;
+  background-color: transparent;
+  opacity: 0.2;
+}
+a h2::after {
+  content: ' ';
+  position: absolute;
+  top: 50%;
+  right: 1.1em;
+  margin-top: -0.5em;
+
+  width: 0;
+  height: 0;
+  border-top: 0.5em solid transparent;
+  border-left: 0.5em solid blue;
+  border-bottom: 0.5em solid transparent;
+
+  overflow: hidden;
+  background-color: transparent;
+  opacity: 0.2;
+}
+a h3::after {
+  content: ' ';
+  position: absolute;
+  top: 50%;
+  right: 1.4em;
+  margin-top: -0.5em;
+
+  width: 0;
+  height: 0;
+  border-top: 0.5em solid transparent;
+  border-left: 0.5em solid blue;
+  border-bottom: 0.5em solid transparent;
+
+  overflow: hidden;
+  background-color: transparent;
+  opacity: 0.2;
+}
+
+
+div.expanded_container {
+  position: relative;
+  width: 100%;
+  overflow: auto;
+}
