@@ -390,7 +390,7 @@ var mapLeague = {
   // on calling  window.bhv.schedule.getAllSchedules(...)
   // BL
   'dat-bl': [34267, window.bhv.schedule.leagueSchedules, 'Bundesliga', 43480],
-  'dat-blcup': [34267, window.bhv.schedule.leagueSchedules, 'Bundesliga-Cup', 43518],
+  'dat-blcup': [33947, window.bhv.schedule.leagueSchedules, 'Bundesliga-Cup', 43518],
   // UL-2
   'dat-ul2': [34791, window.bhv.schedule.leagueSchedules, 'Unterliga - 2', 44267],
   // UL-3
