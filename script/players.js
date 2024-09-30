@@ -1,6 +1,7 @@
 var map = {
   // BL
-  'pla-bl': [33165, null, 'Bundesliga'],
+  'pla-bl': [43480, null, 'Bundesliga'],
+  'pla-blcup': [43518, null, 'Bundesliga - Cup'],
   // UL-2
   'pla-ul2': [44267, null, 'Unterliga - 2'],
   // UL-3
