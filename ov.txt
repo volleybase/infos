@@ -8,13 +8,13 @@
   D:dat-bl:Termine
   #R:res-bl:Ergebnisse
   #S:sta-bl:Tabelle
-  #P:pla-bl:Spielerinnen
+  P:pla-bl:Spielerinnen
  <<
  >blcup>Bundesliga - Cup
   D:dat-blcup:Termine
   #R:res-blcup:Ergebnisse
   #S:sta-blcup:Tabelle
-  #P:pla-blcup:Spielerinnen
+  P:pla-blcup:Spielerinnen
  <<
  >ul2>Unterliga - 2
   D:dat-ul2:Termine
