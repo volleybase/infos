@@ -1,0 +1,102 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Brückl hotvolleys</title>
+  <link rel="stylesheet" href="/infos/styles.css">
+  <style>
+pre#content {
+  font-family: monospace;
+  line-height: 111%;
+  text-align: left;
+  font-size: 3em;
+}
+#content_container, #content_container div {
+  text-align: left;
+  font-size: 1.2em;
+  white-space: nowrap;
+  line-height: 133%;
+}
+#content_container > div {
+  display: inline-block;
+}
+#content_container > div > div {
+  display: inline-block;
+  position: relative;
+  width: 1.5em;
+  text-align: center;
+}
+
+#content_container > div:first-child {
+  border-top: 2px solid #111;
+}
+#content_container > div:last-child {
+  border-bottom: 2px solid #111;
+}
+#content_container > div {
+  border-left: 2px solid #111;
+  border-right: 2px solid #111;
+  padding: 0 1px 0 3px;
+}
+
+#content_container > div:first-child > div {
+  font-weight: bold;
+  font-size: 1.2em;
+  height: 4.5em;
+}
+
+#content_container > div:nth-of-type(2) > div {
+  font-weight: bold;
+  line-height: 150%;
+}
+#content_container > div > div:first-child {
+  width: 2em;
+  font-weight: bold;
+  text-align: left;
+}
+#content_container > div > div:nth-child(2) {
+  text-align: right;
+}
+#content_container > div > div:nth-child(3) {
+  text-align: right;
+  padding-right: 10px;
+  border-right: 1px solid #111;
+}
+div.grayed, div.grayed > div {
+  background-color: lightgray;
+}
+div.rotate {
+  transform: rotate(-90deg) translateX(-2em);
+  background-color: #00000000;
+}
+#content_container div.small-text > span {
+  font-size: 0.55em;
+  background-color: #00000000;
+line-height: 221%;}
+#content_container div.sunday {
+  border-right: 1px solid #111;
+}
+  </style>
+  <script src="/infos/script/polyfills.js"></script>
+  <script src="/infos/script/request.js"></script>
+  <script src="/infos/script/presence.js"></script>
+  <script src="/infos/script/utils.js"></script>
+  <script>
+function init() {
+  window.bhv.utils.setBack();
+  getPresence();
+}
+  </script>
+</head>
+<body onload="init();">
+  <div id="header">
+    <div class="left">
+    <a href="/infos/ov.html"><img src="/infos/image/bhv1.gif"/></a>
+    <div>Anwesenheit</div>
+    </div><div class="right">
+    <a href="/infos/ov.html"><img src="/infos/image/bhv1.gif"/></a>
+    </div>
+  </div>
+  <div id="content_container"><pre id="content">Loading...</pre></div>
+  <div id="footer">Brückl Hotvolleys<div>Brückl Hotvolleys</div></div>
+<body>
+</html>

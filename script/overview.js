@@ -31,30 +31,45 @@ window.bhv.overview = {
                   var subparts = part2.split(':');
                   if (subparts && subparts.length) {
                     switch (subparts[0]) {
-                      case 'L2':  // links
+                      case 'L1':  // links
+                      case 'L2':
+                      case 'L3':
                         if (subparts.length == 4) {
-                          content += '<a id="' + subparts[1] + '" href="' + subparts[3] + '"><h2>' + subparts[2] + '</h2></a>\n';
+                          var hsize = subparts[0].substring(1);
+                          content += '<a id="' + subparts[1] + '" href="' + subparts[3] + '"><h' + hsize + '>' + subparts[2] + '</h' + hsize + '></a>\n';
                         }
                         break;
   
                       case 'D':  // dates
                         if (subparts.length == 3) {
-                          content += '<a id="' + subparts[1] + '" href="schedule.html?key=' + subparts[1] + '"><h3>Termine</h3></a>';
+                          content += '<a id="' + subparts[1] + '" href="schedule.html?key=' + subparts[1] + '"><h3>' + subparts[2] + '</h3></a>';
                         }
                         break;
                       case 'R':  // results
                         if (subparts.length == 3) {
-                            content += '<a id="' + subparts[1] + '" href="results.html?key=' + subparts[1] + '"><h3>Ergebnisse</h3></a>';
+                            content += '<a id="' + subparts[1] + '" href="results.html?key=' + subparts[1] + '"><h3>' + subparts[2] + '</h3></a>';
                           }
                         break;
                       case 'S':  // standings
                         if (subparts.length == 3) {
-                          content += '<a id="' + subparts[1] + '" href="standings.html?key=' + subparts[1] + '"><h3>Tabelle</h3></a>';
+                          content += '<a id="' + subparts[1] + '" href="standings.html?key=' + subparts[1] + '"><h3>' + subparts[2] + '</h3></a>';
                         }
                         break;
                       case 'P':  // players
                         if (subparts.length == 3) {
-                          content += '<a id="' + subparts[1] + '" href="players.html?key=' + subparts[1] + '"><h3>Spielerinnen</h3></a>';
+                          content += '<a id="' + subparts[1] + '" href="players.html?key=' + subparts[1] + '"><h3>' + subparts[2] + '</h3></a>';
+                        }
+                        break;
+
+                      case 'A':
+                        if (subparts.length == 3) {
+                          content += '<a id="' + subparts[1] + '" href="presence.html?key=' + subparts[1] + '"><h3>' + subparts[2] + '</h3></a>';
+                        }
+                        break;
+
+                      case 'TB':
+                        if (subparts.length == 3) {
+                          content += '<a id="' + subparts[1] + '" href="diary.html?key=' + subparts[1] + '"><h3>' + subparts[2] + '</h3></a>';
                         }
                         break;
   

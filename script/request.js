@@ -224,6 +224,36 @@ window.bhv.request = {
 
   // #endregion
 
+  // #region -- presence ------------------------------------------------------
+  
+  'queryPresence': function(key, onsuccess, onerror) {
+    var url = location.protocol + '//' + location.host + '/infos/data/' + key + '.xml?x=1';
+
+    if (!this._startRequest(url, 5000, onsuccess, onerror, true)) {
+      onerror();
+      return false;
+    }
+
+    return true;
+  },
+
+  // #endregion
+
+  // #region -- diary ---------------------------------------------------------
+  
+  'queryDiary': function(key, onsuccess, onerror) {
+    var url = location.protocol + '//' + location.host + '/infos/data/' + key + '.xml?x=1';
+
+    if (!this._startRequest(url, 5000, onsuccess, onerror, true)) {
+      onerror();
+      return false;
+    }
+
+    return true;
+  },
+
+  // #endregion
+
   // #region -- standings -----------------------------------------------------
 
   'queryStandings': function(id, onsuccess, onerror) {
@@ -789,8 +819,11 @@ window.bhv.request.utils = {
    * @param {string} txt The text to add.
    * @return {void}
    */
-  inject: function(txt) {
+  inject: function(txt, replace) {
     var elem = document.getElementById('content');
+    if (replace === true) {
+      elem = elem.parentNode;
+    }
     elem.innerHTML = txt;
   },
 

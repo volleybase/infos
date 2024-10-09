@@ -13,15 +13,28 @@ pre#content {
 pre#content > b {
   font-size: 1.5em;
 }
+
+h3 {
+  padding: 0.3em 0 0.5em 0;
+  text-align: left;
+  background-color: transparent;
+}
+
+div.diary {
+  white-space: nowrap;
+  text-align: left;
+  font-size: 2em;
+  padding: 0 0 0.5em 0;
+}
   </style>
   <script src="/infos/script/polyfills.js"></script>
   <script src="/infos/script/request.js"></script>
-  <script src="/infos/script/players.js"></script>
+  <script src="/infos/script/diary.js"></script>
   <script src="/infos/script/utils.js"></script>
   <script>
 function init() {
   window.bhv.utils.setBack();
-  getPlayers();
+  getDiary();
 }
   </script>
 </head>

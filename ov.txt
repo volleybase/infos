@@ -1,7 +1,7 @@
-#>info>Ich will Volleyball!
-# L2:info-c:Volksschülerinnen:/infos/werbung/volksschule.html
-# L2:info-b:Mittelschule & Gymnasium:/infos/werbung/b.html
-#<<
+>info>Ich will Volleyball!
+ L2:info-c:Volksschülerinnen:/infos/werbung/Volleyball-Schnuppertraining.pdf
+ L2:info-b:Mittelschule & Gymnasium:/infos/werbung/Volleyball-Werbung.jpg
+<<
 
 >ak>Allgemeine Klasse
  >bl>Bundesliga
@@ -30,6 +30,10 @@
  <<
 <<
 
+>nw>Nachwuchs
+  U12-U20
+  folgt, wenn es was gibt...
+<<
 #>junior>NW
 # >u12>U12
 #  Termine
@@ -67,3 +71,16 @@
 #  Info
 # <<
 #<<
+
+>train>Training
+ >train-a>A-Kader
+  A:train-A-07:Juli
+  A:train-A-08:August
+  A:train-A-09:September
+  A:train-A-10:Oktober
+  TB:diary-A:Trainingstagebuch
+ <<
+ >train-b>B-Kader
+  TB:diary-B:Trainingstagebuch
+ <<
+<<
