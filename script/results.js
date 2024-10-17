@@ -55,7 +55,7 @@ function leagueResults(response) {
       var L1 = 4,
           L2 = 12,
           L3 = 7,
-          L45 = 28,
+          L45 = 30,
           fmt = window.bhv.request.utils.fillColumn;
 
       // create text

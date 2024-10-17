@@ -6,16 +6,16 @@
 >ak>Allgemeine Klasse
  >bl>Bundesliga
   D:dat-bl:Termine
-  #R:res-bl:Ergebnisse
-  #S:sta-bl:Tabelle
+  R:res-bl:Ergebnisse
+  S:sta-bl:Tabelle
   P:pla-bl:Spielerinnen
  <<
- >blcup>Bundesliga - Cup
-  D:dat-blcup:Termine
-  #R:res-blcup:Ergebnisse
-  #S:sta-blcup:Tabelle
-  P:pla-blcup:Spielerinnen
- <<
+ #>blcup>Bundesliga - Cup
+ # D:dat-blcup:Termine
+ # #R:res-blcup:Ergebnisse
+ # #S:sta-blcup:Tabelle
+ # P:pla-blcup:Spielerinnen
+ #<<
  >ul2>Unterliga - 2
   D:dat-ul2:Termine
   R:res-ul2:Ergebnisse
@@ -24,9 +24,9 @@
  <<
  >ul3>Unterliga - 3
   D:dat-ul3:Termine
-  #R:res-ul3:Ergebnisse
-  #S:sta-ul3:Tabelle
-  #P:pla-ul3:Spielerinnen
+  R:res-ul3:Ergebnisse
+  S:sta-ul3:Tabelle
+  P:pla-ul3:Spielerinnen
  <<
 <<
 
