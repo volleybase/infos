@@ -390,7 +390,7 @@ var mapLeague = {
   // on calling  window.bhv.schedule.getAllSchedules(...)
   // BL
   'dat-bl': [34267, window.bhv.schedule.leagueSchedules, 'Bundesliga', 43480],
-  'dat-blcup': [33947, window.bhv.schedule.leagueSchedules, 'Bundesliga-Cup', 43518],
+  //'dat-blcup': [33947, window.bhv.schedule.leagueSchedules, 'Bundesliga-Cup', 43518],
   // UL-2
   'dat-ul2': [34791, window.bhv.schedule.leagueSchedules, 'Unterliga - 2', 44267],
   // UL-3
@@ -398,7 +398,12 @@ var mapLeague = {
 };
 
 var mapKids = {
-  '20': {
+  'u16': [34970, window.bhv.schedule.kidsSchedules, 'Turniere U16', 'brückl'],
+  'u15': [34972, window.bhv.schedule.kidsSchedules, 'Turniere U15', 'brückl'],
+  'u14': [34973, window.bhv.schedule.kidsSchedules, 'Turniere U14', 'brückl'],
+  'u13': [34974, window.bhv.schedule.kidsSchedules, 'Turniere U13', 'brückl'],
+  'u12': [34975, window.bhv.schedule.kidsSchedules, 'Turniere U12', 'brückl']
+/*'20': {
     'u16_20': [25172, window.bhv.schedule.kidsSchedules, 'Turniere U16', 'brückl'],
     'u15_20': [25174, window.bhv.schedule.kidsSchedules, 'Turniere U15', 'brückl'],
     'u14_20': [25175, window.bhv.schedule.kidsSchedules, 'Turniere U14', 'brückl'],
@@ -411,11 +416,17 @@ var mapKids = {
     'u12_19': [23060, window.bhv.schedule.kidsSchedules, 'Turniere U12', 'brückl'],
     'u13_19': [23061, window.bhv.schedule.kidsSchedules, 'Turniere U13', 'brückl'],
     'u15_19': [23063, window.bhv.schedule.kidsSchedules, 'Turniere U15', 'brückl']
-  }
+  }*/
 };
 
 var finals = {
-  '20': {
+  // use these dates before the kvv-system has entries for the finals
+  'u16': "Finale (So 30.03.2025  Klagenfurt, Sportpark)",
+  'u15': "Finale (Do 01.05.2025  St.Veit, Gymnasium)",
+  'u14': "Finale (Sa 26.04.2025  St.Veit, Gymnasium)",
+  'u13': "Finale (So 18.05.2025  Klagenfurt, Lerchenfeld)",
+  'u12': "Finale (Do 29.05.2019  ???)"
+/*'20': {
     // use these dates before the kvv-system has entries for the finals
     'u16_20': "Finale (So 03.05.2019  ???)",
     'u15_20': "Finale (Sa 25.04.2019  ???)",
@@ -432,5 +443,5 @@ var finals = {
     // 'u15_19': "Finale (So 05.05.2019  Klagenfurt)",
     // 'u17_19': "Finale (So 03.03.2019  Villach)",
     // 'u19_19': "Finale (So 27.01.2019  Klagenfurt)"
-  }
+  } */
 };

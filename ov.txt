@@ -30,47 +30,41 @@
  <<
 <<
 
->nw>Nachwuchs
-  U12-U20
-  folgt, wenn es was gibt...
+>nw>NW
+ >u12>U12
+  Termine - ab ca. Ende Nov
+#  Tabelle
+#  Info
+ <<
+ >u13>U13
+  D:dat-u13:Termine
+#  Tabelle
+#  Info
+ <<
+ >u14>U14
+  D:dat-u14:Termine
+#  Tabelle
+#  Info
+ <<
+ >u15>U15
+  D:dat-u15:Termine
+#  Tabelle
+#  Info
+ <<
+ >u16>U16
+  D:dat-u16:Termine
+#  Tabelle
+#  Info
+ <<
+ >u18>U18-Finale: 2.3.
+#  Tabelle
+#  Info
+ <<
+ >u20>U20-Finale: 8.12.
+#  Tabelle
+#  Info
+ <<
 <<
-#>junior>NW
-# >u12>U12
-#  Termine
-#  Tabelle
-#  Info
-# <<
-# >u13>U13
-#  Termine
-#  Tabelle
-#  Info
-# <<
-# >u14>U14
-#  Termine
-#  Tabelle
-#  Info
-# <<
-# >u15>U15
-#  Termine
-#  Tabelle
-#  Info
-# <<
-# >u16>U16
-#  Termine
-#  Tabelle
-#  Info
-# <<
-# >u18>U18
-#  Termine
-#  Tabelle
-#  Info
-# <<
-# >u20>U20
-#  Termine
-#  Tabelle
-#  Info
-# <<
-#<<
 
 >train>Training
  >train-a>A-Kader
