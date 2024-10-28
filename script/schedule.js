@@ -398,11 +398,11 @@ var mapLeague = {
 };
 
 var mapKids = {
-  'u16': [34970, window.bhv.schedule.kidsSchedules, 'Turniere U16', 'brückl'],
-  'u15': [34972, window.bhv.schedule.kidsSchedules, 'Turniere U15', 'brückl'],
-  'u14': [34973, window.bhv.schedule.kidsSchedules, 'Turniere U14', 'brückl'],
-  'u13': [34974, window.bhv.schedule.kidsSchedules, 'Turniere U13', 'brückl'],
-  'u12': [34975, window.bhv.schedule.kidsSchedules, 'Turniere U12', 'brückl']
+  'dat-u16': [34970, window.bhv.schedule.kidsSchedules, 'Turniere U16', 'brückl'],
+  'dat-u15': [34972, window.bhv.schedule.kidsSchedules, 'Turniere U15', 'brückl'],
+  'dat-u14': [34973, window.bhv.schedule.kidsSchedules, 'Turniere U14', 'brückl'],
+  'dat-u13': [34974, window.bhv.schedule.kidsSchedules, 'Turniere U13', 'brückl'],
+  'dat-u12': [34975, window.bhv.schedule.kidsSchedules, 'Turniere U12', 'brückl']
 /*'20': {
     'u16_20': [25172, window.bhv.schedule.kidsSchedules, 'Turniere U16', 'brückl'],
     'u15_20': [25174, window.bhv.schedule.kidsSchedules, 'Turniere U15', 'brückl'],
@@ -421,11 +421,11 @@ var mapKids = {
 
 var finals = {
   // use these dates before the kvv-system has entries for the finals
-  'u16': "Finale (So 30.03.2025  Klagenfurt, Sportpark)",
-  'u15': "Finale (Do 01.05.2025  St.Veit, Gymnasium)",
-  'u14': "Finale (Sa 26.04.2025  St.Veit, Gymnasium)",
-  'u13': "Finale (So 18.05.2025  Klagenfurt, Lerchenfeld)",
-  'u12': "Finale (Do 29.05.2019  ???)"
+  'dat-u16': "Finale (So 30.03.2025  Klagenfurt, Sportpark)",
+  'dat-u15': "Finale (Do 01.05.2025  St.Veit, Gymnasium)",
+  'dat-u14': "Finale (Sa 26.04.2025  St.Veit, Gymnasium)",
+  'dat-u13': "Finale (So 18.05.2025  Klagenfurt, Lerchenfeld)",
+  'dat-u12': "Finale (Do 29.05.2019  ???)"
 /*'20': {
     // use these dates before the kvv-system has entries for the finals
     'u16_20': "Finale (So 03.05.2019  ???)",
