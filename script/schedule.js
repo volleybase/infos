@@ -15,8 +15,12 @@ if (window.bhv === undefined) {
  */
 window.bhv.schedule = {
 
+  // an optional filter for junior tournaments
+  _filter: undefined,
+
   /**
    * Starts the loading of the schedules.
+   * @param Optional filter for search junior tournaments.
    * @return {void}
    */
   getSchedules: function() {
@@ -36,9 +40,12 @@ window.bhv.schedule = {
 
     // check kids leagues/tournaments
     if (!found && mapKids && key && mapKids[key]) {
+
+      // set  filter of teams
+      this._filter = mapKids[key][3];
       found = window.bhv.request.queryKidsSchedules(
         mapKids[key][IDX_BEW],
-        mapKids[key][IDX_ONSUCCESS], logSchedulesError
+        mapKids[key][IDX_ONSUCCESS].bind(this), logSchedulesError
       );
     }
 
@@ -303,6 +310,85 @@ window.bhv.schedule = {
   },
 
   /**
+   * Creates the schedules for a junior championship from html page.
+   * @param {string} reponse The response from the web service.
+   * @return {void}
+   */
+  kidsSchedulesHtml: function(response) {
+    var msg = '';
+    if (window.DOMParser) {
+      var parser = new DOMParser();
+      var dom = parser.parseFromString(response, 'text/html');
+
+      var tables = dom.getElementsByTagName('table');
+      var trs = dom.getElementsByTagName('tr');
+
+      var header = undefined, 
+          teams = undefined,
+          found = false;
+      for (var i = 0; i < trs.length; ++i) {
+        var tr = trs[i];
+        if (tr.className =='tablehead') {
+          if (found) {
+            msg += this._addTournament(header, teams);
+          }
+          header = this._parseHeader(tr);
+          teams = [];
+          found = false;
+        } else {
+          var curteam = this._parseTeam(tr);
+          teams.push(curteam);
+          found ||= this._searchTeam(curteam);
+        }
+      }
+      if (found) {
+        msg += this._addTournament(header, teams);
+      }
+    }
+  
+    window.bhv.request.utils.inject(window.bhv.request.utils.getTitle(mapKids) + msg);
+  },
+
+  _parseHeader: function(tr) {
+    var tds = tr.getElementsByTagName('td');
+    return [
+      tds[1].textContent,  // name
+      tds[2].textContent + ' ' + tds[3].textContent, // date + time
+      tds[4].textContent // location
+    ];
+  },
+
+  _parseTeam: function(tr) {
+    var tds = tr.getElementsByTagName('td');
+    return [
+      tds[1].textContent
+    ];
+  },
+
+  _searchTeam: function(curTeam) {
+    return curTeam[0].toLowerCase().indexOf(this._filter) >= 0;
+  },
+
+  _addTournament: function(header, teams) {
+    
+    // tournament
+    var html = '<br><b class="team">'
+            + header[0]  // name
+            + ' '
+            + header[1] // date & time
+            + ' '
+            + header[2] // location
+            + '</b>';
+
+    // todo: teams
+    for (var t = 0; t < teams.length; ++t) {
+      html += '<br>' + teams[t][0];
+    }
+
+    return html;
+  },
+  
+  /**
    * Creates the schedules of a league.
    * @param {string} reponse The response from the web service.
    * @return {void}
@@ -385,7 +471,7 @@ var mapLeague = {
 };
 
 var mapKids = {
-  'dat-u16': [34970, window.bhv.schedule.kidsSchedules, 'Turniere U16', 'brückl'],
+  'dat-u16': [34970, window.bhv.schedule.kidsSchedulesHtml, 'Turniere U16', 'brückl'],
   'dat-u15': [34972, window.bhv.schedule.kidsSchedules, 'Turniere U15', 'brückl'],
   'dat-u14': [34973, window.bhv.schedule.kidsSchedules, 'Turniere U14', 'brückl'],
   'dat-u13': [34974, window.bhv.schedule.kidsSchedules, 'Turniere U13', 'brückl'],
