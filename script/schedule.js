@@ -35,24 +35,11 @@ window.bhv.schedule = {
     }
 
     // check kids leagues/tournaments
-    if (!found && mapKids) {
-      var keysK = Object.keys(mapKids);
-      for (var k2 = 0; k2 < keysK.length; ++k2) {
-        var mmK = mapKids[keysK[k2]];
-        if (mmK && mmK[key]) {
-          if (keysK[k2] === activeSeason) {
-            found = window.bhv.request.queryKidsSchedules(
-              mmK[key][IDX_BEW],
-              mmK[key][IDX_ONSUCCESS], this.getSchedulesOffline
-            );
-          } else {
-            found = window.bhv.request.queryKidsSchedulesArchiveGz(
-              keysK[k2], key,
-              mmK[key][IDX_ONSUCCESS], this.getSchedulesOffline
-            );
-          }
-        }
-      }
+    if (!found && mapKids && key && mapKids[key]) {
+      found = window.bhv.request.queryKidsSchedules(
+        mapKids[key][IDX_BEW],
+        mapKids[key][IDX_ONSUCCESS], logSchedulesError
+      );
     }
 
     // error: league/tournament not found
