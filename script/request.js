@@ -399,12 +399,10 @@ window.bhv.request = {
     }
 
     // the url to get the schedules
-    //var url = location.protocol
-    //  + '//kvv.volleynet.at/volleynet/service/xml2.php'
-    //  + '?action=turniere&bewerb_id=' + idBew;
-    var url = location.protocol + '//kvv.volleynet.at/Ligen/' + idBew;
-
-    // request data
+    var url = location.protocol
+      + '//kvv2.volleynet.at/volleynet/service/xml2.php'
+      + '?action=turniere&bewerb_id=' + idBew;
+    
     if (!this._startRequest(url, 15000, onsuccess, onerror, false)) {
       onerror();
       return false;

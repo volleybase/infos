@@ -242,9 +242,7 @@ window.bhv.schedule = {
       var tournaments = window.bhv.request.xml.getNodes(xml, 'turniere');
       if (tournaments && tournaments.length) {
         var key = window.bhv.request.utils.getKey(),
-            pattern = activeSeason && mapKids[activeSeason]
-              && mapKids[activeSeason][key] && mapKids[activeSeason][key][3]
-              ? mapKids[activeSeason][key][3] : 'brückl';
+            pattern = mapKids && key && mapKids[key] && mapKids[key][3] ? mapKids[key][3] : null;
         for (var t = 0; t < tournaments.length; ++t) {
           var tournament = tournaments[t],
               teams0 = window.bhv.request.xml.findNode(tournament.childNodes, 'anmerkung');
@@ -262,9 +260,8 @@ window.bhv.schedule = {
         }
 
         // add entry for finals
-        if (finals && activeSeason && key
-            && finals[activeSeason] && finals[activeSeason][key]) {
-          msg += NL + NL + '<b class="team">' + finals[activeSeason][key] + '</b>' + NL;
+        if (finals && key && finals[key]) {
+          msg += NL + NL + '<b class="team">' + finals[key] + '</b>' + NL;
         }
       }
     }
@@ -471,7 +468,7 @@ var mapLeague = {
 };
 
 var mapKids = {
-  'dat-u16': [34970, window.bhv.schedule.kidsSchedulesHtml, 'Turniere U16', 'brückl'],
+  'dat-u16': [34970, window.bhv.schedule.kidsSchedules, 'Turniere U16', 'brückl'],
   'dat-u15': [34972, window.bhv.schedule.kidsSchedules, 'Turniere U15', 'brückl'],
   'dat-u14': [34973, window.bhv.schedule.kidsSchedules, 'Turniere U14', 'brückl'],
   'dat-u13': [34974, window.bhv.schedule.kidsSchedules, 'Turniere U13', 'brückl'],
