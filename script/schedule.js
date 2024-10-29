@@ -15,9 +15,6 @@ if (window.bhv === undefined) {
  */
 window.bhv.schedule = {
 
-  // an optional filter for junior tournaments
-  _filter: undefined,
-
   /**
    * Starts the loading of the schedules.
    * @param Optional filter for search junior tournaments.
@@ -40,13 +37,15 @@ window.bhv.schedule = {
 
     // check kids leagues/tournaments
     if (!found && mapKids && key && mapKids[key]) {
-
-      // set  filter of teams
-      this._filter = mapKids[key][3];
       found = window.bhv.request.queryKidsSchedules(
         mapKids[key][IDX_BEW],
-        mapKids[key][IDX_ONSUCCESS].bind(this), logSchedulesError
+        mapKids[key][IDX_ONSUCCESS], logSchedulesError
       );
+    }
+    if (!found && finals && key && finals[key]) {
+      var msg = NL + '<b class="team">' + finals[key][0] + '</b>';
+      window.bhv.request.utils.inject(window.bhv.request.utils.getTitle(finals) + msg);
+      found = true;
     }
 
     // error: league/tournament not found
@@ -261,7 +260,7 @@ window.bhv.schedule = {
 
         // add entry for finals
         if (finals && key && finals[key]) {
-          msg += NL + NL + '<b class="team">' + finals[key] + '</b>' + NL;
+          msg += NL + NL + '<b class="team">' + finals[key][0] + '</b>' + NL;
         }
       }
     }
@@ -305,86 +304,7 @@ window.bhv.schedule = {
       + (own ? '</b>' : '')
       + NL;
   },
-
-  /**
-   * Creates the schedules for a junior championship from html page.
-   * @param {string} reponse The response from the web service.
-   * @return {void}
-   */
-  kidsSchedulesHtml: function(response) {
-    var msg = '';
-    if (window.DOMParser) {
-      var parser = new DOMParser();
-      var dom = parser.parseFromString(response, 'text/html');
-
-      var tables = dom.getElementsByTagName('table');
-      var trs = dom.getElementsByTagName('tr');
-
-      var header = undefined, 
-          teams = undefined,
-          found = false;
-      for (var i = 0; i < trs.length; ++i) {
-        var tr = trs[i];
-        if (tr.className =='tablehead') {
-          if (found) {
-            msg += this._addTournament(header, teams);
-          }
-          header = this._parseHeader(tr);
-          teams = [];
-          found = false;
-        } else {
-          var curteam = this._parseTeam(tr);
-          teams.push(curteam);
-          found ||= this._searchTeam(curteam);
-        }
-      }
-      if (found) {
-        msg += this._addTournament(header, teams);
-      }
-    }
-  
-    window.bhv.request.utils.inject(window.bhv.request.utils.getTitle(mapKids) + msg);
-  },
-
-  _parseHeader: function(tr) {
-    var tds = tr.getElementsByTagName('td');
-    return [
-      tds[1].textContent,  // name
-      tds[2].textContent + ' ' + tds[3].textContent, // date + time
-      tds[4].textContent // location
-    ];
-  },
-
-  _parseTeam: function(tr) {
-    var tds = tr.getElementsByTagName('td');
-    return [
-      tds[1].textContent
-    ];
-  },
-
-  _searchTeam: function(curTeam) {
-    return curTeam[0].toLowerCase().indexOf(this._filter) >= 0;
-  },
-
-  _addTournament: function(header, teams) {
-    
-    // tournament
-    var html = '<br><b class="team">'
-            + header[0]  // name
-            + ' '
-            + header[1] // date & time
-            + ' '
-            + header[2] // location
-            + '</b>';
-
-    // todo: teams
-    for (var t = 0; t < teams.length; ++t) {
-      html += '<br>' + teams[t][0];
-    }
-
-    return html;
-  },
-  
+ 
   /**
    * Creates the schedules of a league.
    * @param {string} reponse The response from the web service.
@@ -491,11 +411,13 @@ var mapKids = {
 
 var finals = {
   // use these dates before the kvv-system has entries for the finals
-  'dat-u16': "Finale (So 30.03.2025  Klagenfurt, Sportpark)",
-  'dat-u15': "Finale (Do 01.05.2025  St.Veit, Gymnasium)",
-  'dat-u14': "Finale (Sa 26.04.2025  St.Veit, Gymnasium)",
-  'dat-u13': "Finale (So 18.05.2025  Klagenfurt, Lerchenfeld)",
-  'dat-u12': "Finale (Do 29.05.2019  ???)"
+  'dat-u20': ["Finale (So 08.12.2024  Klagenfurt, Sportpark)", undefined, 'Turniere U20'],
+  'dat-u18': ["Finale (So 02.03.2025  Klagenfurt, Lerchenfeld)", null, 'Turniere U18'],
+  'dat-u16': ["Finale (So 30.03.2025  Klagenfurt, Sportpark)"],
+  'dat-u15': ["Finale (Do 01.05.2025  St.Veit, Gymnasium)"],
+  'dat-u14': ["Finale (Sa 26.04.2025  St.Veit, Gymnasium)"],
+  'dat-u13': ["Finale (So 18.05.2025  Klagenfurt, Lerchenfeld)"],
+  'dat-u12': ["Finale (Do 29.05.2019  ???)"]
 /*'20': {
     // use these dates before the kvv-system has entries for the finals
     'u16_20': "Finale (So 03.05.2019  ???)",

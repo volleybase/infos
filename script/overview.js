@@ -72,6 +72,12 @@ window.bhv.overview = {
                           content += '<a id="' + subparts[1] + '" href="diary.html?key=' + subparts[1] + '"><h3>' + subparts[2] + '</h3></a>';
                         }
                         break;
+
+                      case 'I':
+                        if (subparts.length == 3) {
+                          content += '<a id="' + subparts[1] + '" href="info.html?key=' + subparts[1] + '"><h3>' + subparts[2] + '</h3></a>';
+                        }
+                        break;
   
                       default: // headers
                         var lev = 0;

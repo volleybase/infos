@@ -34,35 +34,37 @@
  >u12>U12
   Termine - ab ca. Ende Nov
 #  Tabelle
-#  Info
+  I:inf-u12:Info
  <<
  >u13>U13
   D:dat-u13:Termine
 #  Tabelle
-#  Info
+  I:inf-u13:Info
  <<
  >u14>U14
   D:dat-u14:Termine
 #  Tabelle
-#  Info
+  I:inf-u14:Info
  <<
  >u15>U15
   D:dat-u15:Termine
 #  Tabelle
-#  Info
+  I:inf-u15:Info
  <<
  >u16>U16
   D:dat-u16:Termine
 #  Tabelle
-#  Info
+  I:inf-u16:Info
  <<
- >u18>U18-Finale: 2.3.
+ >u18>U18
+  D:dat-u18:Termine
 #  Tabelle
-#  Info
+  I:inf-u18:Info
  <<
- >u20>U20-Finale: 8.12.
+ >u20>U20
 #  Tabelle
-#  Info
+  D:dat-u20:Termine
+  I:inf-u20:Info
  <<
 <<
 

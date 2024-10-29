@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Brückl hotvolleys</title>
+  <link rel="stylesheet" href="/infos/styles.css">
+  <link rel="shortcut icon" href="/infos/favicons/favicon.ico">
+  <style>
+table {
+  width: 100%;
+}
+td, th {
+  padding: 1px 10px;
+  padding: 0.1em 0.5em;
+  text-align: left;
+  vertical-align: top;
+  white-space: nowrap;
+  font-size: 3em;
+}
+th {
+  padding: 10px 10px 20px 10px;
+  padding: 0.5em 0.5em 1em 0.5em;
+}
+b {
+  font-size: 1em;
+}
+b#title {
+  font-size: 1.5em;
+}
+img.bullet {
+  width: 16px;
+  height: 16px;
+  width: 2em;
+  height: 2em;
+}
+  </style>
+  <script src="/infos/script/polyfills.js"></script>
+  <script src="/infos/script/request.js"></script>
+  <script src="/infos/script/utils.js"></script>
+  <script>
+var data = {
+  'inf-u20': {
+    'title': 'U20 - Juniorinnen',
+    'players': '6<br>+ 6 Wechselspielerinnen<br>+ 2 Liberas<br>&nbsp;',
+    'age': '1. Jän. 2006<br>&nbsp;',
+    'court': '9 x 18m<br>&nbsp;',
+    'net': '2,24m',
+    'div': null
+  },
+  'inf-u18': {
+    'title': 'U18 - Jugend weiblich',
+    'players': '6<br>+ 6 Wechselspielerinnen<br>+ 2 Liberas<br>&nbsp;',
+    'age': '1. Jän. 2008<br>&nbsp;',
+    'court': '9 x 18m<br>&nbsp;',
+    'net': '2,24m',
+    'div': null
+  },
+  'inf-u16': {
+    'title': 'U16 - Schülerinnen',
+    'players': '6<br>+ 6 Wechselspielerinnen<br>&nbsp;',
+    'age': '1. Jän. 2010<br>&nbsp;',
+    'court': '9 x 18m<br>&nbsp;',
+    'net': '2,18m<br>&nbsp;',
+    'div': 'Kein Libero'
+  },
+
+  'inf-u15': {
+    'title': 'U15 - Midi weiblich',
+    'players': '4<br>+ 4 Wechselspielerinnen<br>&nbsp;',
+    'age': '1. Jän. 2011<br>&nbsp;',
+    'court': '7 x 14m<br>&nbsp;',
+    'net': '2,15m<br>&nbsp;',
+    'div': 'Portugalregel beim Service<br>Fixe Aufspielposition bei Annahme<br>4 Wechsel pro Satz'
+  },
+  'inf-u14': {
+    'title': 'U14 - mini weiblich',
+    'players': '3<br>+ 3 Wechselspielerinnen<br>&nbsp;',
+    'age': '1. Jän. 2012<br>&nbsp;',
+    'court': '6 x 12m<br>&nbsp;',
+    'net': '2,10m<br>&nbsp;',
+    'div': 'Portugalregel beim Service<br>Fixe Aufspielposition bei Annahme<br>kein Block für Servicespieler direkt nach Service<br>4 Wechsel pro Satz'
+  },
+  'inf-u13': {
+    'title': 'U13 - Supermini I (weiblich)',
+    'players': '3<br>+ 3 Wechselspielerinnen<br>&nbsp;',
+    'age': '1. Jän. 2013<br>&nbsp;',
+    'court': '6 x 12m<br>&nbsp;',
+    'net': '2,05m<br>&nbsp;',
+    'div': 'Portugalregel beim Service<br>Fixe Aufspielposition bei Annahme<br>min. 2 Ballkontakte bei Anahme<br>kein Block für Servicespieler direkt nach Service<br>4 Wechsel pro Satz'
+  },
+  'inf-u12': {
+    'title': 'U12 - Supermini II (mixed)',
+    'players': '2<br>+ 2 Wechselspielerinnen<br>&nbsp;',
+    'age': '1. Jän. 2014<br>&nbsp;',
+    'court': '4,5 x 9m<br>&nbsp;',
+    'net': '2,00m<br>&nbsp;',
+    'div': null
+  }
+}
+function getInfo() {
+  var msg = '',
+      key = window.bhv.request.utils.getKey();
+
+  if (data && key && data[key]) {
+    var keys = Object.keys(data[key]);
+    for (var k = 0; k < keys.length; ++k) {
+      var id = keys[k],
+          value = data[key][id],
+          elem = document.getElementById(id);
+      if (elem) {
+        if (value) {
+          elem.innerHTML = value;
+        } else {
+          var container = document.getElementById(id + 'container');
+          if (container) {
+            container.style = 'display: none;';
+          }
+        }
+      }
+    }
+  } else {
+    window.bhv.request.utils.inject('Ungültige Infos!');
+  }
+}
+  </script>
+ </head>
+ <body onload="window.bhv.utils.setBack(); getInfo();">
+  <div id="header">
+    <div class="left">
+    <a href="/infos/ov.html"><img src="/infos/image/bhv1.gif"/></a>
+    <div>Infos</div>
+    </div><div class="right">
+    <a href="/infos/ov.html"><img src="/infos/image/bhv1.gif"/></a>
+    </div>
+  </div>
+  <div id="content_container">
+    <table cellspacing="0" cellpadding="0">
+      <colgroup>
+        <col width="1em">
+        <col width="3em">
+        <col width="1em">
+        <col width="1em">
+        <col width="*">
+      </colgroup>
+      
+      <tr><th>&nbsp;</td><th colspan="3"><b id="title">Loading...</b></th><th>&nbsp;</th></tr>
+      <tr><td>&nbsp;</td><td><img class="bullet" src="/infos/image/ball32.png" alt="List item" /></td><td><b>Spielerinnen: </b></td><td id="players"></td><td>&nbsp;</td></tr>
+      <tr><td>&nbsp;</td><td><img class="bullet" src="/infos/image/ball32.png" alt="List item" /></td><td><b>Altersstichtag: </b></td><td id="age"></td><td>&nbsp;</td></tr>
+      <tr><td>&nbsp;</td><td><img class="bullet" src="/infos/image/ball32.png" alt="List item" /></td><td><b>Spielfeld: </b></td><td id="court"></td><td>&nbsp;</td></tr>
+      <tr><td>&nbsp;</td><td><img class="bullet" src="/infos/image/ball32.png" alt="List item" /></td><td><b>Netzhöhe: </b></td><td id="net">&nbsp;</td><td>&nbsp;</td></tr>
+
+      <tr id="divcontainer"><td>&nbsp;</td><td><img class="bullet" src="/infos/image/ball32.png" alt="List item" /></td><td><b>Besonderheiten: </b></td><td id="div">&nbsp;</td><td>&nbsp;</td></tr>
+
+    </table>      
+  </div>
+  <div id="footer">Brückl Hotvolleys<div>Brückl Hotvolleys</div></div>
+ </body>
+</html>

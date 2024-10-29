@@ -398,7 +398,7 @@ window.bhv.request = {
       return false;
     }
 
-    // the url to get the schedules
+    // the url to get the schedules (!!! kvv2 only!!!)
     var url = location.protocol
       + '//kvv2.volleynet.at/volleynet/service/xml2.php'
       + '?action=turniere&bewerb_id=' + idBew;
@@ -691,7 +691,7 @@ window.bhv.request.utils = {
   /**
    * Returns the title of the current request.
    * @param {{}} map The main data map.
-   * @return {string} The title of the curremnt request.
+   * @return {string} The title of the current request.
    */
   getTitle: function(map) {
 
