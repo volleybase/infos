@@ -70,13 +70,18 @@
 
 >train>Training
  >train-a>A-Kader
-  A:train-A-07:Juli
-  A:train-A-08:August
-  A:train-A-09:September
+  A:train-A-11:November
   A:train-A-10:Oktober
+  A:train-A-09:September
+  A:train-A-08:August
+  A:train-A-07:Juli
   TB:diary-A:Trainingstagebuch
  <<
  >train-b>B-Kader
+  A:train-B-11:November
+  A:train-B-10:Oktober
+  A:train-B-09:September
+  A:train-B-08:August
   TB:diary-B:Trainingstagebuch
  <<
 <<

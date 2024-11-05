@@ -125,11 +125,6 @@
 <percentage>22</percentage>
 <presence>                              </presence>
 </item>
-<item><name></name>
-<sum>0</sum>
-<percentage>0</percentage>
-<presence>                              </presence>
-</item>
 <item><name>KB</name>
 <sum>11</sum>
 <percentage>41</percentage>
@@ -155,11 +150,6 @@
 <percentage>33</percentage>
 <presence>                              </presence>
 </item>
-<item><name></name>
-<sum>0</sum>
-<percentage>0</percentage>
-<presence>                              </presence>
-</item>
 <item><name>KD</name>
 <sum>11</sum>
 <percentage>41</percentage>
@@ -171,11 +161,6 @@
 <presence>                              </presence>
 </item>
 <item><name>JS</name>
-<sum>0</sum>
-<percentage>0</percentage>
-<presence>                              </presence>
-</item>
-<item><name></name>
 <sum>0</sum>
 <percentage>0</percentage>
 <presence>                              </presence>
@@ -200,11 +185,6 @@
 <percentage>59</percentage>
 <presence>                              </presence>
 </item>
-<item><name></name>
-<sum>0</sum>
-<percentage>0</percentage>
-<presence>                              </presence>
-</item>
 <item><name>LD</name>
 <sum>6</sum>
 <percentage>22</percentage>
@@ -213,16 +193,6 @@
 <item><name>NG</name>
 <sum>1</sum>
 <percentage>4</percentage>
-<presence>                              </presence>
-</item>
-<item><name></name>
-<sum>0</sum>
-<percentage>0</percentage>
-<presence>                              </presence>
-</item>
-<item><name></name>
-<sum>0</sum>
-<percentage>0</percentage>
 <presence>                              </presence>
 </item>
 <item><name>LS</name>
@@ -245,36 +215,6 @@
 <percentage>15</percentage>
 <presence>                              </presence>
 </item>
-<item><name></name>
-<sum>0</sum>
-<percentage>0</percentage>
-<presence>                              </presence>
-</item>
-<item><name></name>
-<sum>1</sum>
-<percentage>4</percentage>
-<presence>                              </presence>
-</item>
-<item><name></name>
-<sum>0</sum>
-<percentage>0</percentage>
-<presence>                              </presence>
-</item>
-<item><name></name>
-<sum>1</sum>
-<percentage>4</percentage>
-<presence>                              </presence>
-</item>
-<item><name></name>
-<sum>1</sum>
-<percentage>4</percentage>
-<presence>                              </presence>
-</item>
-<item><name></name>
-<sum>1</sum>
-<percentage>4</percentage>
-<presence>                              </presence>
-</item>
 <item><name>DK</name>
 <sum>6</sum>
 <percentage>22</percentage>
@@ -283,16 +223,6 @@
 <item><name>KW</name>
 <sum>4</sum>
 <percentage>15</percentage>
-<presence>                              </presence>
-</item>
-<item><name></name>
-<sum>1</sum>
-<percentage>4</percentage>
-<presence>                              </presence>
-</item>
-<item><name></name>
-<sum>0</sum>
-<percentage>0</percentage>
 <presence>                              </presence>
 </item>
 <item><value>-1</value>
@@ -349,11 +279,6 @@
 <item><name>N</name>
 <sum>4</sum>
 <percentage>15</percentage>
-<presence>                              </presence>
-</item>
-<item><name></name>
-<sum>0</sum>
-<percentage>0</percentage>
 <presence>                              </presence>
 </item>
 </data>
