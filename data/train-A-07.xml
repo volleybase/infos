@@ -184,4 +184,29 @@
 <percentage>14</percentage>
 <presence>   #      # </presence>
 </item>
+<item><name>R</name>
+<sum>6</sum>
+<percentage>8</percentage>
+<presence>            </presence>
+</item>
+<item><name></name>
+<sum>0</sum>
+<percentage>0</percentage>
+<presence>            </presence>
+</item>
+<item><name></name>
+<sum>0</sum>
+<percentage>0</percentage>
+<presence>            </presence>
+</item>
+<item><name></name>
+<sum>0</sum>
+<percentage>0</percentage>
+<presence>            </presence>
+</item>
+<item><name></name>
+<sum>0</sum>
+<percentage>0</percentage>
+<presence>            </presence>
+</item>
 </data>

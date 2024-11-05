@@ -1,0 +1,359 @@
+<data>
+<header1><info></info>
+<info></info>
+<info></info>
+<info>01.09.</info>
+<info>02.09.</info>
+<info>03.09.</info>
+<info>04.09.</info>
+<info>05.09.</info>
+<info>06.09.</info>
+<info>07.09.</info>
+<info>08.09.</info>
+<info>09.09.</info>
+<info>10.09.</info>
+<info>11.09.</info>
+<info>12.09.</info>
+<info>13.09.</info>
+<info>14.09.</info>
+<info>15.09.</info>
+<info>16.09.</info>
+<info>17.09.</info>
+<info>18.09.</info>
+<info>19.09.</info>
+<info>20.09.</info>
+<info>21.09.</info>
+<info>22.09.</info>
+<info>23.09.</info>
+<info>24.09.</info>
+<info>25.09.</info>
+<info>26.09.</info>
+<info>27.09.</info>
+<info>28.09.</info>
+<info>29.09.</info>
+<info>30.09.</info>
+</header1>
+<header2><info></info>
+<info>Ʃ</info>
+<info>%</info>
+<info>So</info>
+<info>Mo</info>
+<info>Di</info>
+<info>M</info>
+<info>Do</info>
+<info>Fr</info>
+<info>Sa</info>
+<info>So</info>
+<info>Mo</info>
+<info>Di</info>
+<info>Mi</info>
+<info>Do</info>
+<info>Fr</info>
+<info>Sa</info>
+<info>So</info>
+<info>Mo</info>
+<info>Di</info>
+<info>Mi</info>
+<info>Do</info>
+<info>Fr</info>
+<info>Sa</info>
+<info>So</info>
+<info>Mo</info>
+<info>Di</info>
+<info>Mi</info>
+<info>Do</info>
+<info>Fr</info>
+<info>Sa</info>
+<info>So</info>
+<info>Mo</info>
+<class></class>
+<class></class>
+<class></class>
+<class>sunday</class>
+<class></class>
+<class></class>
+<class></class>
+<class></class>
+<class></class>
+<class></class>
+<class>sunday</class>
+<class></class>
+<class></class>
+<class></class>
+<class></class>
+<class></class>
+<class></class>
+<class>sunday</class>
+<class></class>
+<class></class>
+<class></class>
+<class></class>
+<class></class>
+<class></class>
+<class>sunday</class>
+<class></class>
+<class></class>
+<class></class>
+<class></class>
+<class></class>
+<class></class>
+<class>sunday</class>
+<class></class>
+</header2>
+<item><name>YG</name>
+<sum>10</sum>
+<percentage>37</percentage>
+<presence> #  #      ##   # ##     #    </presence>
+</item>
+<item><name>LS</name>
+<sum>7</sum>
+<percentage>26</percentage>
+<presence>           ##   #  #     #    </presence>
+</item>
+<item><name>YW</name>
+<sum>3</sum>
+<percentage>11</percentage>
+<presence>           #    #             </presence>
+</item>
+<item><name>JP</name>
+<sum>11</sum>
+<percentage>41</percentage>
+<presence>           ##   # ##     #    </presence>
+</item>
+<item><name>MM</name>
+<sum>6</sum>
+<percentage>22</percentage>
+<presence>     #            #      #    </presence>
+</item>
+<item><name></name>
+<sum>0</sum>
+<percentage>0</percentage>
+<presence>                              </presence>
+</item>
+<item><name>KB</name>
+<sum>11</sum>
+<percentage>41</percentage>
+<presence>    #      #    # #           </presence>
+</item>
+<item><name>NB</name>
+<sum>14</sum>
+<percentage>52</percentage>
+<presence>    #      ##   # #      #    </presence>
+</item>
+<item><name>JF</name>
+<sum>9</sum>
+<percentage>33</percentage>
+<presence>    ##     ##   # #      #    </presence>
+</item>
+<item><name>AK</name>
+<sum>18</sum>
+<percentage>67</percentage>
+<presence> #         ##   # ##     ##   </presence>
+</item>
+<item><name>AB</name>
+<sum>9</sum>
+<percentage>33</percentage>
+<presence>           #    # #      #    </presence>
+</item>
+<item><name></name>
+<sum>0</sum>
+<percentage>0</percentage>
+<presence>                              </presence>
+</item>
+<item><name>KD</name>
+<sum>11</sum>
+<percentage>41</percentage>
+<presence> #         ##   # ##          </presence>
+</item>
+<item><name>AW</name>
+<sum>8</sum>
+<percentage>30</percentage>
+<presence>           #    #             </presence>
+</item>
+<item><name>JS</name>
+<sum>0</sum>
+<percentage>0</percentage>
+<presence>                              </presence>
+</item>
+<item><name></name>
+<sum>0</sum>
+<percentage>0</percentage>
+<presence>                              </presence>
+</item>
+<item><name>CM</name>
+<sum>16</sum>
+<percentage>59</percentage>
+<presence> #  ##     ##     ##     ##   </presence>
+</item>
+<item><name>VK</name>
+<sum>21</sum>
+<percentage>78</percentage>
+<presence> #  #      ##   # ##     ##   </presence>
+</item>
+<item><name>KJ</name>
+<sum>7</sum>
+<percentage>26</percentage>
+<presence> #  ##          # ##          </presence>
+</item>
+<item><name>LS</name>
+<sum>16</sum>
+<percentage>59</percentage>
+<presence> #  ##          # ##          </presence>
+</item>
+<item><name></name>
+<sum>0</sum>
+<percentage>0</percentage>
+<presence>                              </presence>
+</item>
+<item><name>LD</name>
+<sum>6</sum>
+<percentage>22</percentage>
+<presence>     #             #     #    </presence>
+</item>
+<item><name>NG</name>
+<sum>1</sum>
+<percentage>4</percentage>
+<presence>                              </presence>
+</item>
+<item><name></name>
+<sum>0</sum>
+<percentage>0</percentage>
+<presence>                              </presence>
+</item>
+<item><name></name>
+<sum>0</sum>
+<percentage>0</percentage>
+<presence>                              </presence>
+</item>
+<item><name>LS</name>
+<sum>12</sum>
+<percentage>44</percentage>
+<presence>     #     #      ##     ##   </presence>
+</item>
+<item><name>EM</name>
+<sum>9</sum>
+<percentage>33</percentage>
+<presence>                       # #    </presence>
+</item>
+<item><name>LK</name>
+<sum>7</sum>
+<percentage>26</percentage>
+<presence>                # ##          </presence>
+</item>
+<item><name>LO</name>
+<sum>4</sum>
+<percentage>15</percentage>
+<presence>                   #          </presence>
+</item>
+<item><name></name>
+<sum>0</sum>
+<percentage>0</percentage>
+<presence>                              </presence>
+</item>
+<item><name></name>
+<sum>1</sum>
+<percentage>4</percentage>
+<presence> #                            </presence>
+</item>
+<item><name></name>
+<sum>0</sum>
+<percentage>0</percentage>
+<presence>                              </presence>
+</item>
+<item><name></name>
+<sum>1</sum>
+<percentage>4</percentage>
+<presence>     #                        </presence>
+</item>
+<item><name></name>
+<sum>1</sum>
+<percentage>4</percentage>
+<presence>     #                        </presence>
+</item>
+<item><name></name>
+<sum>1</sum>
+<percentage>4</percentage>
+<presence>           #                  </presence>
+</item>
+<item><name>DK</name>
+<sum>6</sum>
+<percentage>22</percentage>
+<presence>           #    #         #   </presence>
+</item>
+<item><name>KW</name>
+<sum>4</sum>
+<percentage>15</percentage>
+<presence>           #    #             </presence>
+</item>
+<item><name></name>
+<sum>1</sum>
+<percentage>4</percentage>
+<presence>                         #    </presence>
+</item>
+<item><name></name>
+<sum>0</sum>
+<percentage>0</percentage>
+<presence>                              </presence>
+</item>
+<item><value>-1</value>
+<value>9</value>
+<value>-1</value>
+<value>-1</value>
+<value>8</value>
+<value>9</value>
+<value>-1</value>
+<value>-1</value>
+<value>-1</value>
+<value>-1</value>
+<value>-1</value>
+<value>17</value>
+<value>9</value>
+<value>-1</value>
+<value>-1</value>
+<value>-1</value>
+<value>17</value>
+<value>-1</value>
+<value>17</value>
+<value>14</value>
+<value>-1</value>
+<value>0</value>
+<value>-1</value>
+<value>1</value>
+<value>-1</value>
+<value>14</value>
+<value>5</value>
+<value>-1</value>
+<value>-1</value>
+<value>-1</value>
+</item>
+<item><name>B</name>
+<sum>22</sum>
+<percentage>81</percentage>
+<presence> #  #      ##   # ##     ##   </presence>
+</item>
+<item><name>M</name>
+<sum>4</sum>
+<percentage>15</percentage>
+<presence>                   #   #      </presence>
+</item>
+<item><name>R</name>
+<sum>1</sum>
+<percentage>4</percentage>
+<presence>                     #        </presence>
+</item>
+<item><name>C</name>
+<sum>3</sum>
+<percentage>11</percentage>
+<presence>                #      #      </presence>
+</item>
+<item><name>N</name>
+<sum>4</sum>
+<percentage>15</percentage>
+<presence>                  #      #    </presence>
+</item>
+<item><name></name>
+<sum>0</sum>
+<percentage>0</percentage>
+<presence>                              </presence>
+</item>
+</data>
