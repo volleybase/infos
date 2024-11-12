@@ -9,6 +9,7 @@
   R:res-bl:Ergebnisse
   S:sta-bl:Tabelle
   P:pla-bl:Spielerinnen
+  tactics:tac-bl-extra:Aufgaben:/infos/BL/aufgaben.html
  <<
  #>blcup>Bundesliga - Cup
  # D:dat-blcup:Termine
