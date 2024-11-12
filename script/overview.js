@@ -41,10 +41,15 @@ window.bhv.overview = {
                         break;
   
                       case 'D':  // dates
+                      case 'D2':  // dates
                         if (subparts.length == 3) {
-                          content += '<a id="' + subparts[1] + '" href="schedule.html?key=' + subparts[1] + '"><h3>' + subparts[2] + '</h3></a>';
+                          var header = 'h' + (subparts[0].length == 1 ? '3' : subparts[0].substring(1));
+                          content += '<a id="' + subparts[1] + '" href="schedule.html?key=' + subparts[1] + '">'
+                              + '<' + header + '>' + subparts[2] + '</' + header + '>'
+                              + '</a>';
                         }
                         break;
+
                       case 'R':  // results
                         if (subparts.length == 3) {
                             content += '<a id="' + subparts[1] + '" href="results.html?key=' + subparts[1] + '"><h3>' + subparts[2] + '</h3></a>';
@@ -76,6 +81,12 @@ window.bhv.overview = {
                       case 'I':
                         if (subparts.length == 3) {
                           content += '<a id="' + subparts[1] + '" href="info.html?key=' + subparts[1] + '"><h3>' + subparts[2] + '</h3></a>';
+                        }
+                        break;
+
+                      case 'tactics':
+                        if (subparts.length == 4) {
+                          content += '<a id="' + subparts[1] + '" href="' + subparts[3] + '?key=' + subparts[1] + '"><h3>' + subparts[2] + '</h3></a>';
                         }
                         break;
   

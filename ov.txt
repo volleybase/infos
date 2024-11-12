@@ -27,45 +27,54 @@
   R:res-ul3:Ergebnisse
   S:sta-ul3:Tabelle
   P:pla-ul3:Spielerinnen
+  tactics:tac-ul-3-1:Spielsystem:/infos/UL-3/Grossfeld-1/index.html
  <<
 <<
 
 >nw>NW
  >u12>U12
   Termine - ab ca. Ende Nov
-#  Tabelle
+  S:sta-u12:Tabelle
   I:inf-u12:Info
+  tactics:tac-u12-1:Spielsystem:/infos/U12/Supermini-1/index.html
+  tactics:tac-u12-2:Spielsystem Fortgeschrittene:/infos/U12/Supermini-1-F/index.html
  <<
  >u13>U13
   D:dat-u13:Termine
-#  Tabelle
+  S:sta-u13:Tabelle
   I:inf-u13:Info
+  tactics:tac-u13-1:Spielsystem (leicht):/infos/U13/Supermini-2-L/index.html
+  tactics:tac-u13-2:Spielsystem:/infos/U13/Supermini-2/index.html
  <<
  >u14>U14
   D:dat-u14:Termine
-#  Tabelle
+  S:sta-u14:Tabelle
   I:inf-u14:Info
+  tactics:tac-u14-1:Spielsystem:/infos/U14/Mini-1/index.html
+  tactics:tac-u14-1:Spielsystem Fortgeschrittene:/infos/U14/Mini-2/index.html
  <<
  >u15>U15
   D:dat-u15:Termine
-#  Tabelle
+  S:sta-u15:Tabelle
   I:inf-u15:Info
+  tactics:tac-u15-1:Spielsystem:/infos/U15/Midi-1/index.html
  <<
  >u16>U16
   D:dat-u16:Termine
-#  Tabelle
+  S:sta-u16:Tabelle
   I:inf-u16:Info
  <<
  >u18>U18
-  D:dat-u18:Termine
-#  Tabelle
+  D:dat-u18:Termin
+  #S:sta-u18:Endergebnis
   I:inf-u18:Info
  <<
  >u20>U20
-#  Tabelle
-  D:dat-u20:Termine
+  D:dat-u20:Termin
+  #S:sta-u20:Endergebnis
   I:inf-u20:Info
  <<
+ #D2:dat-u:Alle NW-Termine
 <<
 
 >train>Training

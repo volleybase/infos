@@ -101,113 +101,113 @@
 <class></class>
 </header2>
 <item><name>CA</name>
-<sum>66</sum>
-<percentage>87</percentage>
+<sum>72</sum>
+<percentage>88</percentage>
 <presence> ### #   # ## ### ## ##  ##  #</presence>
 </item>
 <item><name>DB</name>
-<sum>17</sum>
+<sum>18</sum>
 <percentage>22</percentage>
 <presence>         #  # #    # ##  #   #</presence>
 </item>
 <item><name>MD</name>
-<sum>62</sum>
+<sum>67</sum>
 <percentage>82</percentage>
 <presence> #####   # #  ### ## ## ###  #</presence>
 </item>
 <item><name>ND</name>
-<sum>55</sum>
-<percentage>72</percentage>
+<sum>60</sum>
+<percentage>73</percentage>
 <presence>  ## #   # ## ### ## ##  ##  #</presence>
 </item>
 <item><name>MG</name>
-<sum>31</sum>
-<percentage>41</percentage>
+<sum>37</sum>
+<percentage>45</percentage>
 <presence> #          #         ##  #   </presence>
 </item>
 <item><name>LG</name>
-<sum>33</sum>
+<sum>35</sum>
 <percentage>43</percentage>
 <presence>              ###     # ###  #</presence>
 </item>
 <item><name>VL</name>
-<sum>13</sum>
+<sum>14</sum>
 <percentage>17</percentage>
 <presence>                              </presence>
 </item>
 <item><name>SM</name>
-<sum>56</sum>
-<percentage>74</percentage>
+<sum>62</sum>
+<percentage>76</percentage>
 <presence> # ###   # ## ### ## ##  ##  #</presence>
 </item>
 <item><name>LM</name>
-<sum>36</sum>
-<percentage>47</percentage>
+<sum>38</sum>
+<percentage>46</percentage>
 <presence> #       #    ### #  #       #</presence>
 </item>
 <item><name>NR</name>
-<sum>41</sum>
-<percentage>54</percentage>
+<sum>43</sum>
+<percentage>52</percentage>
 <presence> ### #   # ## ##     ##   #   </presence>
 </item>
 <item><name>SR</name>
-<sum>57</sum>
-<percentage>75</percentage>
+<sum>61</sum>
+<percentage>74</percentage>
 <presence> ### #   # ## ##  #      ##  #</presence>
 </item>
 <item><name>AS</name>
-<sum>24</sum>
+<sum>26</sum>
 <percentage>32</percentage>
 <presence>  #  #     #  ##   # ##      #</presence>
 </item>
 <item><name>JW</name>
-<sum>40</sum>
-<percentage>53</percentage>
+<sum>45</sum>
+<percentage>55</percentage>
 <presence> ####    # ## #   ## ## ##   #</presence>
 </item>
 <item><name>LW</name>
-<sum>36</sum>
-<percentage>47</percentage>
+<sum>37</sum>
+<percentage>45</percentage>
 <presence> ### #   # ## #   #  ## ###  #</presence>
 </item>
 <item><name>GK</name>
-<sum>30</sum>
-<percentage>39</percentage>
+<sum>31</sum>
+<percentage>38</percentage>
 <presence>                   # ## #     </presence>
 </item>
 <item><name>YV</name>
 <sum>6</sum>
-<percentage>8</percentage>
+<percentage>7</percentage>
 <presence>    ##     #                  </presence>
 </item>
 <item><name>VS</name>
-<sum>10</sum>
+<sum>11</sum>
 <percentage>13</percentage>
 <presence>           #      #  #  #     </presence>
 </item>
 <item><name>VW</name>
-<sum>22</sum>
-<percentage>29</percentage>
+<sum>25</sum>
+<percentage>30</percentage>
 <presence>                  ##  # ###  #</presence>
 </item>
 <item><name>NL</name>
-<sum>10</sum>
+<sum>11</sum>
 <percentage>13</percentage>
 <presence>                      #      #</presence>
 </item>
 <item><name>CI</name>
-<sum>7</sum>
-<percentage>9</percentage>
+<sum>8</sum>
+<percentage>10</percentage>
 <presence>                              </presence>
 </item>
 <item><name>S</name>
 <sum>12</sum>
-<percentage>16</percentage>
+<percentage>15</percentage>
 <presence> #  #       #     #          #</presence>
 </item>
 <item><name>M</name>
-<sum>16</sum>
-<percentage>21</percentage>
+<sum>19</sum>
+<percentage>23</percentage>
 <presence> #  #          ##  #  #      #</presence>
 </item>
 <item><name>A</name>
@@ -247,18 +247,18 @@
 <value>16</value>
 </item>
 <item><name>B</name>
-<sum>74</sum>
-<percentage>97</percentage>
+<sum>79</sum>
+<percentage>96</percentage>
 <presence> #####   # ## ### ## ## ###  #</presence>
 </item>
 <item><name>M</name>
 <sum>11</sum>
-<percentage>14</percentage>
+<percentage>13</percentage>
 <presence>  #      #      #      #      </presence>
 </item>
 <item><name>R</name>
 <sum>6</sum>
-<percentage>8</percentage>
+<percentage>7</percentage>
 <presence>                              </presence>
 </item>
 </data>
