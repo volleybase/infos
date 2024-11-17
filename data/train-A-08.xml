@@ -110,78 +110,78 @@
 <class></class>
 </header2>
 <item><name>CA</name>
-<sum>72</sum>
-<percentage>88</percentage>
+<sum>75</sum>
+<percentage>87</percentage>
 <presence>##  ## #   #   #### ## ##  ## #  </presence>
 </item>
 <item><name>DB</name>
 <sum>18</sum>
-<percentage>22</percentage>
+<percentage>21</percentage>
 <presence>                                 </presence>
 </item>
 <item><name>MD</name>
-<sum>67</sum>
-<percentage>82</percentage>
+<sum>71</sum>
+<percentage>83</percentage>
 <presence>#   ## #   #   ####           ## </presence>
 </item>
 <item><name>ND</name>
-<sum>60</sum>
+<sum>63</sum>
 <percentage>73</percentage>
 <presence>#      ##  #   ###  ## ##      # </presence>
 </item>
 <item><name>MG</name>
 <sum>37</sum>
-<percentage>45</percentage>
+<percentage>43</percentage>
 <presence>       ##      #    #   #  ## #  </presence>
 </item>
 <item><name>LG</name>
-<sum>35</sum>
-<percentage>43</percentage>
+<sum>38</sum>
+<percentage>44</percentage>
 <presence>              ##    #            </presence>
 </item>
 <item><name>VL</name>
 <sum>14</sum>
-<percentage>17</percentage>
+<percentage>16</percentage>
 <presence>##  ## ##     ###                </presence>
 </item>
 <item><name>SM</name>
 <sum>62</sum>
-<percentage>76</percentage>
+<percentage>72</percentage>
 <presence> #  #  ##  #  ## #   # #   ## #  </presence>
 </item>
 <item><name>LM</name>
-<sum>38</sum>
-<percentage>46</percentage>
+<sum>39</sum>
+<percentage>45</percentage>
 <presence>#   #      #           ##  ## #  </presence>
 </item>
 <item><name>NR</name>
-<sum>43</sum>
-<percentage>52</percentage>
+<sum>44</sum>
+<percentage>51</percentage>
 <presence> #   #     #   # ## ## ##  ## #  </presence>
 </item>
 <item><name>SR</name>
-<sum>61</sum>
+<sum>64</sum>
 <percentage>74</percentage>
 <presence> #  ## ##  #  ####  ## ##  ## #  </presence>
 </item>
 <item><name>AS</name>
-<sum>26</sum>
-<percentage>32</percentage>
+<sum>28</sum>
+<percentage>33</percentage>
 <presence>              #####         #  # </presence>
 </item>
 <item><name>JW</name>
-<sum>45</sum>
+<sum>47</sum>
 <percentage>55</percentage>
 <presence>                                 </presence>
 </item>
 <item><name>LW</name>
-<sum>37</sum>
-<percentage>45</percentage>
+<sum>41</sum>
+<percentage>48</percentage>
 <presence>                               # </presence>
 </item>
 <item><name>GK</name>
-<sum>31</sum>
-<percentage>38</percentage>
+<sum>32</sum>
+<percentage>37</percentage>
 <presence>    #  ##  #     ##  #     ##    </presence>
 </item>
 <item><name>YV</name>
@@ -190,13 +190,13 @@
 <presence>    ##                           </presence>
 </item>
 <item><name>VS</name>
-<sum>11</sum>
-<percentage>13</percentage>
+<sum>12</sum>
+<percentage>14</percentage>
 <presence>                                 </presence>
 </item>
 <item><name>VW</name>
 <sum>25</sum>
-<percentage>30</percentage>
+<percentage>29</percentage>
 <presence>                                 </presence>
 </item>
 <item><name>NL</name>
@@ -205,18 +205,18 @@
 <presence>                                 </presence>
 </item>
 <item><name>CI</name>
-<sum>8</sum>
+<sum>9</sum>
 <percentage>10</percentage>
 <presence>                                 </presence>
 </item>
 <item><name>S</name>
 <sum>12</sum>
-<percentage>15</percentage>
+<percentage>14</percentage>
 <presence> #  ## ##                  ##    </presence>
 </item>
 <item><name>M</name>
 <sum>19</sum>
-<percentage>23</percentage>
+<percentage>22</percentage>
 <presence>                 #   #     ##    </presence>
 </item>
 <item><name>A</name>
@@ -259,8 +259,8 @@
 <value>-1</value>
 </item>
 <item><name>B</name>
-<sum>79</sum>
-<percentage>96</percentage>
+<sum>82</sum>
+<percentage>95</percentage>
 <presence>##  ## ##  #  ##### ## ##  ## ## </presence>
 </item>
 <item><name>M</name>
@@ -269,8 +269,8 @@
 <presence>                     #           </presence>
 </item>
 <item><name>R</name>
-<sum>6</sum>
-<percentage>7</percentage>
+<sum>8</sum>
+<percentage>9</percentage>
 <presence>                                 </presence>
 </item>
 </data>
