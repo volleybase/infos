@@ -29,6 +29,7 @@
   S:sta-ul3:Tabelle
   P:pla-ul3:Spielerinnen
   tactics:tac-ul-3-1:Spielsystem:/infos/UL-3/Grossfeld-1/index.html
+  tactics:tac-ul-3-1:Spielsystem Fortgeschrittene:/infos/UL-3/Grossfeld-2/index.html
  <<
 <<
 
