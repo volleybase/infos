@@ -47,7 +47,7 @@
 <class></class>
 </header2>
 <item><name>CA</name>
-<sum>77</sum>
+<sum>78</sum>
 <percentage>88</percentage>
 <presence># ## ##  ## </presence>
 </item>
@@ -58,12 +58,12 @@
 </item>
 <item><name>MD</name>
 <sum>71</sum>
-<percentage>81</percentage>
+<percentage>80</percentage>
 <presence># ## ##  ## </presence>
 </item>
 <item><name>ND</name>
 <sum>64</sum>
-<percentage>73</percentage>
+<percentage>72</percentage>
 <presence># ##     #  </presence>
 </item>
 <item><name>MG</name>
@@ -72,8 +72,8 @@
 <presence>#           </presence>
 </item>
 <item><name>LG</name>
-<sum>40</sum>
-<percentage>45</percentage>
+<sum>41</sum>
+<percentage>46</percentage>
 <presence># #      #  </presence>
 </item>
 <item><name>VL</name>
@@ -82,22 +82,22 @@
 <presence># ## #      </presence>
 </item>
 <item><name>SM</name>
-<sum>63</sum>
+<sum>64</sum>
 <percentage>72</percentage>
 <presence>  ## #      </presence>
 </item>
 <item><name>LM</name>
-<sum>40</sum>
-<percentage>45</percentage>
+<sum>41</sum>
+<percentage>46</percentage>
 <presence>#        #  </presence>
 </item>
 <item><name>NR</name>
-<sum>45</sum>
-<percentage>51</percentage>
+<sum>46</sum>
+<percentage>52</percentage>
 <presence>         ## </presence>
 </item>
 <item><name>SR</name>
-<sum>66</sum>
+<sum>67</sum>
 <percentage>75</percentage>
 <presence>  ## ##  #  </presence>
 </item>
@@ -107,17 +107,17 @@
 <presence># #      #  </presence>
 </item>
 <item><name>JW</name>
-<sum>48</sum>
+<sum>49</sum>
 <percentage>55</percentage>
 <presence># #  #   ## </presence>
 </item>
 <item><name>LW</name>
-<sum>43</sum>
+<sum>44</sum>
 <percentage>49</percentage>
 <presence>            </presence>
 </item>
 <item><name>GK</name>
-<sum>33</sum>
+<sum>34</sum>
 <percentage>38</percentage>
 <presence>     ##  ## </presence>
 </item>
@@ -127,38 +127,38 @@
 <presence>          # </presence>
 </item>
 <item><name>VS</name>
-<sum>12</sum>
-<percentage>14</percentage>
+<sum>13</sum>
+<percentage>15</percentage>
 <presence>            </presence>
 </item>
 <item><name>VW</name>
 <sum>26</sum>
-<percentage>30</percentage>
+<percentage>29</percentage>
 <presence>            </presence>
 </item>
 <item><name>NL</name>
 <sum>11</sum>
-<percentage>13</percentage>
+<percentage>12</percentage>
 <presence>            </presence>
 </item>
 <item><name>CI</name>
-<sum>9</sum>
-<percentage>10</percentage>
+<sum>10</sum>
+<percentage>11</percentage>
 <presence>            </presence>
 </item>
 <item><name>S</name>
 <sum>12</sum>
-<percentage>14</percentage>
+<percentage>13</percentage>
 <presence>            </presence>
 </item>
 <item><name>M</name>
 <sum>19</sum>
-<percentage>22</percentage>
+<percentage>21</percentage>
 <presence>            </presence>
 </item>
 <item><name>A</name>
 <sum>4</sum>
-<percentage>5</percentage>
+<percentage>4</percentage>
 <presence>            </presence>
 </item>
 <item><value>12</value>
@@ -175,12 +175,12 @@
 <value>-1</value>
 </item>
 <item><name>B</name>
-<sum>84</sum>
-<percentage>95</percentage>
+<sum>85</sum>
+<percentage>96</percentage>
 <presence># ## ##  ## </presence>
 </item>
 <item><name>M</name>
-<sum>11</sum>
+<sum>12</sum>
 <percentage>13</percentage>
 <presence>   #      # </presence>
 </item>
