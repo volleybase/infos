@@ -39,6 +39,8 @@ function kidsStandingsF(response) {
  * @return {void}
  */
 function doKidsStandings(response, final) {
+  cbs = null;
+  counter = 0;
 
   // create xml data
   var xml = window.bhv.request.xml.fromText(response, 'xml');
@@ -86,7 +88,35 @@ function doKidsStandings(response, final) {
 
       // add created text to page
       window.bhv.request.utils.inject(window.bhv.request.utils.getTitle(map) + msg);
+
+      setTimeout(function() { 
+        counter = 10;
+        handleCBs();
+      }, 100);
     }
+  }
+}
+
+var cbs = null,
+    counter = 0;
+function handleCBs() {
+  var cbsSearch = document.querySelectorAll("div.container > input.info");
+  if (cbsSearch && cbsSearch.length) {
+    cbs = cbsSearch;
+    for (var i = 0; i < cbs.length; ++i) {
+      cbs[i].onclick = function(event) {
+        for (var i = 0; i < cbs.length; ++i) {
+          var cb = cbs[i];
+          if (cb != event.target) {
+            cb.checked = false;
+          }
+        }
+      }
+    }
+  } else if (--counter > 0) {
+    setTimeout(function() { 
+      handleCBs();
+    }, 100);
   }
 }
 
