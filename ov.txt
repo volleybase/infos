@@ -35,7 +35,7 @@
 
 >nw>NW
  >u12>U12
-  Termine - ab ca. Ende Nov
+  D:dat-u12:Termine
   S:sta-u12:Tabelle
   I:inf-u12:Info
   tactics:tac-u12-1:Spielsystem:/infos/U12/Supermini-1/index.html
