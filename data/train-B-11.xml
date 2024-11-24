@@ -101,88 +101,88 @@
 <class></class>
 </header2>
 <item><name>YG</name>
-<sum>10</sum>
-<percentage>28</percentage>
-<presence>                              </presence>
+<sum>11</sum>
+<percentage>29</percentage>
+<presence>                     #        </presence>
 </item>
 <item><name>LS</name>
-<sum>7</sum>
-<percentage>19</percentage>
-<presence>                              </presence>
+<sum>8</sum>
+<percentage>21</percentage>
+<presence>                     #        </presence>
 </item>
 <item><name>YW</name>
-<sum>4</sum>
-<percentage>11</percentage>
-<presence>             #                </presence>
+<sum>5</sum>
+<percentage>13</percentage>
+<presence>             #       #        </presence>
 </item>
 <item><name>JP</name>
-<sum>12</sum>
-<percentage>33</percentage>
-<presence>             #                </presence>
+<sum>13</sum>
+<percentage>34</percentage>
+<presence>             #       #        </presence>
 </item>
 <item><name>MM</name>
 <sum>6</sum>
-<percentage>17</percentage>
+<percentage>16</percentage>
 <presence>                              </presence>
 </item>
 <item><name>KB</name>
-<sum>16</sum>
-<percentage>44</percentage>
-<presence>    # ##          # #         </presence>
+<sum>18</sum>
+<percentage>47</percentage>
+<presence>    # ##          # ## #      </presence>
 </item>
 <item><name>NB</name>
-<sum>18</sum>
-<percentage>50</percentage>
-<presence>    # #    #        #         </presence>
+<sum>20</sum>
+<percentage>53</percentage>
+<presence>    # #    #        ## #      </presence>
 </item>
 <item><name>JF</name>
-<sum>17</sum>
-<percentage>47</percentage>
-<presence>    #  #   # ## # # #         </presence>
+<sum>19</sum>
+<percentage>50</percentage>
+<presence>    #  #   # ## # # ## #      </presence>
 </item>
 <item><name>AK</name>
 <sum>24</sum>
-<percentage>67</percentage>
+<percentage>63</percentage>
 <presence>      ##   # ## #             </presence>
 </item>
 <item><name>AB</name>
-<sum>13</sum>
-<percentage>36</percentage>
-<presence>    # #           # #         </presence>
+<sum>15</sum>
+<percentage>39</percentage>
+<presence>    # #           # ## #      </presence>
 </item>
 <item><name>KD</name>
-<sum>18</sum>
-<percentage>50</percentage>
-<presence>      #    # ## # # #         </presence>
+<sum>20</sum>
+<percentage>53</percentage>
+<presence>      #    # ## # # ## #      </presence>
 </item>
 <item><name>AW</name>
-<sum>13</sum>
-<percentage>36</percentage>
-<presence>    # #    #      # #         </presence>
+<sum>14</sum>
+<percentage>37</percentage>
+<presence>    # #    #      # #  #      </presence>
 </item>
 <item><name>JS</name>
 <sum>0</sum>
 <percentage>0</percentage>
-<presence>             #                </presence>
+<presence>             #       #        </presence>
 </item>
 <item><name>CM</name>
-<sum>21</sum>
-<percentage>58</percentage>
-<presence>             ## # # #         </presence>
+<sum>23</sum>
+<percentage>61</percentage>
+<presence>             ## # # ## #      </presence>
 </item>
 <item><name>VK</name>
 <sum>25</sum>
-<percentage>69</percentage>
+<percentage>66</percentage>
 <presence>      #         # # #         </presence>
 </item>
 <item><name>LS</name>
-<sum>22</sum>
-<percentage>61</percentage>
-<presence>       #   # ## #   #         </presence>
+<sum>24</sum>
+<percentage>63</percentage>
+<presence>       #   # ## #   ## #      </presence>
 </item>
 <item><name>LD</name>
 <sum>7</sum>
-<percentage>19</percentage>
+<percentage>18</percentage>
 <presence>      #                       </presence>
 </item>
 <item><name>NG</name>
@@ -192,17 +192,17 @@
 </item>
 <item><name>LS</name>
 <sum>17</sum>
-<percentage>47</percentage>
+<percentage>45</percentage>
 <presence>      ##     #  #   #         </presence>
 </item>
 <item><name>EM</name>
-<sum>11</sum>
-<percentage>31</percentage>
-<presence>       #     #                </presence>
+<sum>12</sum>
+<percentage>32</percentage>
+<presence>       #     #       #        </presence>
 </item>
 <item><name>DK</name>
 <sum>7</sum>
-<percentage>19</percentage>
+<percentage>18</percentage>
 <presence>             #                </presence>
 </item>
 <item><name>KW</name>
@@ -231,9 +231,9 @@
 <value>7</value>
 <value>0</value>
 <value>10</value>
+<value>13</value>
 <value>0</value>
-<value>0</value>
-<value>0</value>
+<value>8</value>
 <value>0</value>
 <value>0</value>
 <value>0</value>
@@ -242,9 +242,9 @@
 <value>0</value>
 </item>
 <item><name>B</name>
-<sum>31</sum>
-<percentage>86</percentage>
-<presence>    # ##   # ## # # #         </presence>
+<sum>33</sum>
+<percentage>87</percentage>
+<presence>    # ##   # ## # # ## #      </presence>
 </item>
 <item><name>M</name>
 <sum>4</sum>
