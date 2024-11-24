@@ -4,7 +4,14 @@ var map = {
   // UL-2
   'sta-ul2': [34791, leagueStandings, 'Unterliga - 2', 44267],
   // UL-3
-  'sta-ul3': [34792, leagueStandings, 'Unterliga - 3', 44278]
+  'sta-ul3': [34792, leagueStandings, 'Unterliga - 3', 44278],
+  // U12...
+  'sta-u12': [34975, kidsStandings, 'Tabelle U12'],
+  //'sta-u12f': [?, kidsStandingsF, 'Endstand U12'],
+  'sta-u13': [34974, kidsStandings, 'Tabelle U13'],
+  'sta-u14': [34973, kidsStandings, 'Tabelle U14'],
+  'sta-u15': [34972, kidsStandings, 'Tabelle U15'],
+  'sta-u16': [34970, kidsStandings, 'Tabelle U16']
 };
 
 /**
